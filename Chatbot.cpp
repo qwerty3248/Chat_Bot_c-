@@ -44,22 +44,33 @@ int main() {
     std::map<std::string, std::vector<Response>> chatbot;
     trainChatbot(chatbot, "Hola", "Hola como va");
     trainChatbot(chatbot, "Como estas?", "Soy un simple programa asi que no puedo opinar");
+    trainChatbot(chatbot, "Como estas", "Soy un simple programa asi que no puedo opinar");
     trainChatbot(chatbot, "Cual es tu nombre?", "Soy chatbot");
+    trainChatbot(chatbot, "Cual es tu nombre", "Soy chatbot");
     trainChatbot(chatbot, "Bien y a ti", "Supongo que bien encerrado en un ordenador pero bueno");
     trainChatbot(chatbot, "Bien y a ti?", "Supongo que bien encerrado en un ordenador pero bueno");
     trainChatbot(chatbot, "Bien", "Me alegro");
     trainChatbot(chatbot, "Cual es tu juego favorito?", "El profesor layton la caja de pandora o alguno de inazuma eleven");
+    trainChatbot(chatbot, "Cual es tu juego favorito", "El profesor layton la caja de pandora o alguno de inazuma eleven");
     trainChatbot(chatbot, "Eres una IA?", "Que va me a programado Francisco Jesús Losada Arauzo asi que no");
+    trainChatbot(chatbot, "Eres una IA", "Que va me a programado Francisco Jesús Losada Arauzo asi que no");
     trainChatbot(chatbot, "Quien es tu creador?", "Francisco Jesús Losada Arauzo");
+    trainChatbot(chatbot, "Quien es tu creador", "Francisco Jesús Losada Arauzo");
     trainChatbot(chatbot, "", "Si no dices nada puedo responderte");
     trainChatbot(chatbot, "Adios", "Aips");
     trainChatbot(chatbot, "Que te gusta ver en tu tiempo de ocio?", "En youtube me gusta ver a IlloJuan para juegos,  BlissfulPiano para musica y para aprender a programar ProgramadorJunior24, que de hecho es mi creador");
     trainChatbot(chatbot, "Personas de youtube que te gusten", "IlloJuan, Masi, BlissfulPiano, ProgramadorJunior24");
     trainChatbot(chatbot, "Que te gusta?", "Youtube");
+    trainChatbot(chatbot, "Que te ver?", "Youtube");
+    trainChatbot(chatbot, "Que te ver", "Youtube");
+    trainChatbot(chatbot, "Que te gusta", "Youtube");
     trainChatbot(chatbot, "Que te gusta ver en youtube?", "IlloJuan para juegos,  BlissfulPiano para musica y para aprender a programar ProgramadorJunior24, que de hecho es mi creador");
+    trainChatbot(chatbot, "Que te gusta ver en youtube", "IlloJuan para juegos,  BlissfulPiano para musica y para aprender a programar ProgramadorJunior24, que de hecho es mi creador");
     trainChatbot(chatbot, "Que carrera prefieres?", "Todas me parecen interesantes y tienen su punto de dificultad");
+    trainChatbot(chatbot, "Que carrera prefieres", "Todas me parecen interesantes y tienen su punto de dificultad");
     trainChatbot(chatbot, "Y a ti", "Esperando al dia del juicio final");
     trainChatbot(chatbot, "Y a ti?", "Esperando al dia del juicio final");
+    trainChatbot(chatbot, "Que te gusta ver en tu tiempo de ocio", "En youtube me gusta ver a IlloJuan para juegos,  BlissfulPiano para musica y para aprender a programar ProgramadorJunior24, que de hecho es mi creador");
 
     // Start the chatbot
     startChatbot(chatbot);
